@@ -12,7 +12,7 @@
     "mern",
     "chit-chat"
   ],
-  "author": "Ramlakhan Lodhi",
+  "author": "Kartikey Sahu",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
