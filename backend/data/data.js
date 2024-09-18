@@ -7,8 +7,8 @@ const chats = [
         email: "john@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
     ],
     _id: "617a077e18c25468bc7c4dd4",
@@ -22,8 +22,8 @@ const chats = [
         email: "guest@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
     ],
     _id: "617a077e18c25468b27c4dd4",
@@ -37,8 +37,8 @@ const chats = [
         email: "anthony@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
     ],
     _id: "617a077e18c2d468bc7c4dd4",
@@ -52,8 +52,8 @@ const chats = [
         email: "jon@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
       {
         name: "Guest User",
@@ -75,8 +75,8 @@ const chats = [
         email: "jane@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
     ],
     _id: "617a077e18c25468bc7cfdd4",
@@ -90,8 +90,8 @@ const chats = [
         email: "jon@example.com",
       },
       {
-        name: "Ramlakhan",
-        email: "ramlakhan@example.com",
+        name: "Kartikey",
+        email: "kartikey@example.com",
       },
       {
         name: "Guest User",

@@ -55,7 +55,7 @@ const SignUp = () => {
       });
       return;
     }
-    
+
     try {
       const config = {
         headers: {
@@ -64,7 +64,7 @@ const SignUp = () => {
       };
       const { data } = await axios.post(
         "/api/user",
-        { name, email, password},
+        { name, email, password },
         config
       );
       toast({
