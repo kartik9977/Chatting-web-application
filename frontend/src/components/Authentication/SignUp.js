@@ -9,6 +9,7 @@ import { useHistory } from "react-router-dom";
 
 const SignUp = () => {
   const [show, setShow] = useState(false);
+  const [showConfirm, setConfirmShow] = useState(false);
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [confirmpassword, setConfirmPassword] = useState();
@@ -19,6 +20,7 @@ const SignUp = () => {
   const history = useHistory();
 
   const handleClick = () => setShow(!show);
+  const handleConfirmClick = () => setConfirmShow(!showConfirm);
 
   const submitHandler = async () => {
     setLoading(true);
@@ -184,13 +186,13 @@ const SignUp = () => {
         <FormLabel>Confirm Password</FormLabel>
         <InputGroup>
           <Input
-            type={show ? " text" : "password"}
+            type={showConfirm ? " text" : "password"}
             placeholder="Enter Your Confirm Password "
             onChange={(e) => setConfirmPassword(e.target.value)}
           />
           <InputRightElement width="4.5rem">
-            <Button h="1.75" size="sm" onClick={handleClick}>
-              {show ? "Hide" : "Show"}
+            <Button h="1.75" size="sm" onClick={handleConfirmClick}>
+              {showConfirm ? "Hide" : "Show"}
             </Button>
           </InputRightElement>
         </InputGroup>
